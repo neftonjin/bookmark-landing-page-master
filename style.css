@@ -1,0 +1,18 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+.social-icons{
+
+    background-color: skyblue;
+}
+
+
+.footer-nav{
+    
+    text-transform:uppercase;
+    color: white;
+    background-color: darkblue;
+}
