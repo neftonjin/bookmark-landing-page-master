@@ -30,7 +30,8 @@ h1, h2 {
 .img-bg{
     /* padding: 1rem; */
     
-    filter: drop-shadow(100px 50px  rgb(39, 79, 199))
+    filter: drop-shadow(10vw 5vh  hsl(231, 69%, 60%));
+    ))
   }  
 .social-icons{
 
@@ -88,5 +89,18 @@ box-shadow: 1px 1px 8px 1px rgba(221,224,224,1);
 .button-link-container li a:hover{
 color: white;
 background-color:hsl(231, 69%, 60%) ;
+}
+
+.features-list {
+    margin: 3rem ;
+}
+.features-list li:first-child ,.features-list li:last-child  {
+    
+    border-top: 1px hsl(229, 8%, 60%) solid;
+    border-bottom: 1px hsl(229, 8%, 60%) solid;
+}
+.features-list li{
+    padding: 1rem;
+    list-style: none;
 }
 
