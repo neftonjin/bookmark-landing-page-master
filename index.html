@@ -6,6 +6,7 @@
     <!-- displays site properly based on user's device -->
     <link rel="stylesheet" href="style.css" type="text/css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="index.js" type="text/javascript">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@500;700;800;900&family=Montserrat&family=Oswald:wght@400;700&family=Outfit:wght@300;400;600&family=Pacifico&family=Playfair+Display:wght@900&family=Roboto&family=Rubik:wght@400;500&display=swap" rel="stylesheet">
     <link
@@ -13,6 +14,11 @@
       type="image/png"
       sizes="32x32"
       href="./images/favicon-32x32.png" />
+
+      <!-- <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css"> -->
+
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
 
     <title>Frontend Mentor | Bookmark landing page</title>
 
@@ -74,12 +80,13 @@
         websites. Your bookmarks sync between your devices so you can access
         them on the go.
       </p>
-      <ul class="features-list">
-        <li>Simple Bookmarking</li>
-        <li>Speedy Searching</li>
-        <li>Easy Sharing</li>
+      <div id="tabs">
+      <ul class="tabs-list" >
+        <li> <a href="#tabs-1">Simple Bookmarking</a> </li>
+        <li ><a href="#tabs-2">Speedy Searching</a></li>
+        <li ><a href="#tabs-3">Easy Sharing</a></li>
       </ul>
-      <div>
+      <div id="tabs-1" class="">
         <img src="./images/illustration-features-tab-1.svg" alt="features" />
         <div class="card">
           <h3>Bookmark in one click</h3>
@@ -91,7 +98,7 @@
           <button>More Info</button>
         </div>
       </div>
-      <div class="toogleOff">
+      <div  id="tabs-2" class="">
         <img src="./images/illustration-features-tab-2.svg" alt="features" />
         <div class="card">
           <h3>Intelligent search</h3>
@@ -103,7 +110,7 @@
         </div>
       </div>
 
-      <div class="toogleOff">
+      <div id="tabs-3" class="">
         <img src="./images/illustration-features-tab-3.svg" alt="features" />
         <div class="card">
           <h3>Share your bookmarks</h3>
@@ -113,8 +120,10 @@
           </p>
           <button>More Info</button>
         </div>
+        </div>
       </div>
     </div>
+
     <div class="container">
       <h2>Download the extension</h2>
       <p>
@@ -244,5 +253,11 @@
         >. Coded by <a href="#">Mitrea Mihai Radu</a>.
       </p>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js" integrity="sha256-xLD7nhI62fcsEZK2/v8LsBcb4lG7dgULkuXoXB/j91c=" crossorigin="anonymous"></script>
   </body>
+  <script src="index.js"> </script>
+  
+  <body>
+   
 </html>

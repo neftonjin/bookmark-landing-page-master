@@ -91,16 +91,29 @@ color: white;
 background-color:hsl(231, 69%, 60%) ;
 }
 
-.features-list {
-    margin: 3rem ;
-}
-.features-list li:first-child ,.features-list li:last-child  {
+
+#tabs li:first-child ,#tabs li:last-child  {
     
     border-top: 1px hsl(229, 8%, 60%) solid;
     border-bottom: 1px hsl(229, 8%, 60%) solid;
 }
-.features-list li{
-    padding: 1rem;
+
+#tabs{
+    margin: 2rem ;
+}
+.tabs-list{
+    margin: 2rem;
+}
+#tabs ul li {
+    margin: auto;
+    max-width: 300px;
+    padding: 1rem 0.5rem;
     list-style: none;
 }
 
+#tabs ul li a{
+    text-decoration: none;
+    color: hsl(229, 8%, 50%) ;
+    font-weight: 450;
+   
+}
